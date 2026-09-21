@@ -1,3 +1,13 @@
+/* Self-hosted Press Start 2P (SIL Open Font License - see fonts/OFL.txt)
+   Served from this repo so the pixel font cannot be blocked or fail to load. */
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url('fonts/PressStart2P-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
 /* Global Styles */
 * {
     margin: 0;
