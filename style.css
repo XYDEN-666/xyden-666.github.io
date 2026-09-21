@@ -27,9 +27,8 @@
     --section-spacing: 80px;  /* Increased section spacing */
     --content-spacing: 40px;  /* Increased content spacing */
 
-    /* Typography: pixel font for identity, clean sans for reading */
+    /* Typography: the original pixel face, used site-wide */
     --font-display: 'Press Start 2P', monospace;
-    --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
 
     /* Surfaces */
     --panel-bg: linear-gradient(180deg, #181920 0%, #111217 100%);
