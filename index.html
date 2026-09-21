@@ -3,7 +3,9 @@
 <head>
     <title>Adarsh A | Cybersecurity Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Press+Start+2P&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <meta name="description" content="Adarsh A - Cybersecurity portfolio covering SOC operations, digital forensics, and penetration testing.">
     <meta name="keywords" content="cybersecurity, SOC analyst, digital forensics, penetration testing, SIEM, Wazuh, malware analysis">
@@ -30,8 +32,15 @@
                     <img src="images/profile-picture.jpeg" alt="Portrait of Adarsh A" id="portrait">
                 </div>
                 <h1>Adarsh A</h1>
+                <p class="role-line">SOC Analyst &middot; Security Analyst &middot; Digital Forensics</p>
                 
-                <h4>Turning curiosity into code, and threats into opportunities.</h4>
+                <h4 class="tagline">Turning curiosity into code, and threats into opportunities.</h4>
+                <p class="hero-meta">
+                    Kerala, India <span class="sep">&middot;</span>
+                    <a href="mailto:adarshanil.963@gmail.com">adarshanil.963@gmail.com</a> <span class="sep">&middot;</span>
+                    <a href="https://github.com/XYDEN-666" target="_blank" data-sound="audio/select.mp3">GitHub</a> <span class="sep">&middot;</span>
+                    <a href="https://www.linkedin.com/in/adarsha3333" target="_blank" data-sound="audio/select.mp3">LinkedIn</a>
+                </p>
                 </div>
         </header>
 
@@ -115,12 +124,14 @@
                 <h2>Projects</h2>
                 <div class="project-grid">
                     <div class="project-item">
+                        <img src="images/project-mkr.png" alt="Pixel-art radar sweep flagging an exposed asset, representing the MKR recon framework">
                         <h3>MKR - Modular Knowledge Recon</h3>
                         <p>Built a defensive asset validation framework for bug bounty recon and internal assessments: subdomain enumeration (CT logs + DNS), Nmap service discovery, validation of exposed FTP/MySQL/PostgreSQL services, and probes for sensitive paths such as /.env and /.git/.</p>
                         <p>Detects dangling-CNAME takeover risk via SaaS fingerprints and correlates findings into prioritized exposure chains with business-impact statements.</p>
                         <p><a href="https://github.com/XYDEN-666/MKR" target="_blank" data-sound="audio/select.mp3">View on GitHub</a></p>
                     </div>
                     <div class="project-item">
+                        <img src="images/project-madroid.png" alt="Pixel-art Android device beside a rising risk meter, representing the MaDroid risk model">
                         <h3>MaDroid - Android Malware Risk Prediction</h3>
                         <p>Engineered a 32-feature runtime behavior model from raw Tracee eBPF syscall traces across 50,000+ Android apps, predicting a continuous 0-58 malware risk score instead of a binary label.</p>
                         <p>Benchmarked 7 regression algorithms and tuned the top performer with Optuna Bayesian search and stacking ensembles; a hand-crafted interaction feature outranked all 25 base features.</p>
@@ -189,7 +200,7 @@
                 <h2>Contact</h2>
                 <div class="content-wrapper">
                     <p>Feel free to reach out to me via email or connect with me on social media. Just ping me for new opportunities and projects.</p>
-                    <p>Email: adarshanil.963@gmail.com</p>
+                    <p>Email: <a href="mailto:adarshanil.963@gmail.com">adarshanil.963@gmail.com</a></p>
                     <div class="resume-buttons">
                         <a href="resume.pdf" class="resume-btn" target="_blank" data-sound="audio/select.mp3">
                             <i class="fas fa-eye"></i> View Resume  
