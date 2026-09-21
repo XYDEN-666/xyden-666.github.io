@@ -423,6 +423,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Handle scroll behavior
     window.addEventListener('scroll', () => {
+        if (!sideNav) return;
         if (window.scrollY > headerHeight) {
             sideNav.classList.add('visible');
         } else {
